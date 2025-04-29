@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2025 [Your Name or Organization]
+
+This project uses the following methods and transformations:
+- **Yeo-Johnson Transformation**: As described in:
+  - Yeo, I. K., & Johnson, R. (2000). A New Family of Power Transformations to Improve Normality or Symmetry. Biometrika, 87(4), 954-959.
+
+- **Z-Score Removal**: Remove outliers based on Z-scores that exceed a threshold (default 3.0).
+  
+- **Z-Score Capper**: Cap values based on Z-scores exceeding a threshold.
+
+- **Yeo-Johnson Removal**: Apply Yeo-Johnson transformation and remove outliers based on Z-scores.
+
+- **Yeo-Johnson Capper**: Apply Yeo-Johnson transformation and cap outliers.
+
+- **Impact Reduction**: Cap outlier values to reduce their impact based on mean and standard deviation.
+
+- **Adaptive Trimming**: Trim values that lie outside of the Interquartile Range (IQR) and replace them with the column mean.
+
+- **Smooth Boundary Capping**: Softly cap outliers towards the boundary, with a smoothing factor.
+
+- **Local Standardization Correction**: Apply local standardization using a rolling window to correct outliers based on local statistics.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell      
+copies of the Software, and to permit persons to whom the Software is          
+furnished to do so, subject to the following conditions:                       
+
+The above copyright notice and this permission notice shall be included in all 
+copies or substantial portions of the Software.                                
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR    
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,      
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE   
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER        
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE 
+SOFTWARE.

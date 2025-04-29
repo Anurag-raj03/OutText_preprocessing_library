@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include tests *
+outtext_working.ipynb
+text_preprocessing_r.ipynb

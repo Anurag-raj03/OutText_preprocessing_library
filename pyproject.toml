@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "OutText_preprocessing"
+version = "1.0.3"
+description = "A package for outlier removal and text preprocessing"
+authors = ["Anurag Raj <anuragraj4483@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Anurag-raj03/OutText_preprocessing_library.git"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+pandas = "*"
+numpy = "*"
+scipy = "*"
+scikit-learn = "*"
+nltk = "*"
+emoji = "*"
+autocorrect = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[tool.poetry.scripts]
+outlier-removal = "OutText_preprocessing.outlier_removal:main"
+text-preprocessing = "OutText_preprocessing.text_preprocessing:main"

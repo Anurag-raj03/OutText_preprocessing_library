@@ -1,0 +1,8 @@
+pandas
+numpy
+scipy
+scikit-learn
+nltk
+emoji
+autocorrect
+pytest
