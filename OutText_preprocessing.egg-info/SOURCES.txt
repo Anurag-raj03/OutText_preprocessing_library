@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+OutText_preprocessing/__init__.py
+OutText_preprocessing/outlier_removal.py
+OutText_preprocessing/text_preprocessing.py
+OutText_preprocessing.egg-info/PKG-INFO
+OutText_preprocessing.egg-info/SOURCES.txt
+OutText_preprocessing.egg-info/dependency_links.txt
+OutText_preprocessing.egg-info/requires.txt
+OutText_preprocessing.egg-info/top_level.txt
+tests/__init__.py
+tests/test_outlier_removal.py
+tests/test_text_prepeocessing.py
