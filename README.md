@@ -116,7 +116,7 @@ processed_data = remover.multi_outlier_multi_columns(df, methods_columns_dict)
 
 ## 🔗 My Work & Socials
 
-- 🏅 **Kaggle**: [anuragbanerjeeofficial](https://www.kaggle.com/anuragraj03/code)
+- 🏅 **Kaggle**: [Anurag Raj](https://www.kaggle.com/anuragraj03/code)
 - 💻 **GitHub**: [Anurag Raj](https://github.com/Anurag-raj03)
 - 💼 **LinkedIn**: [Anurag Raj](https://www.linkedin.com/in/anurag-raj-770b6524a/)
 
